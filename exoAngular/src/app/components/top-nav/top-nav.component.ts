@@ -1,19 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-top-nav',
   standalone: true,
   imports: [
-    RouterLink,
-    RouterLinkActive
+    RouterLink
   ],
   templateUrl: './top-nav.component.html',
   styleUrl: './top-nav.component.css'
 })
 export class TopNavComponent {
 
-  ngOnInit(): void {
-  }
-  
 }
