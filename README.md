@@ -1,3 +1,3 @@
 # exoJcAngular
 
-Exercies d'apprentissage du Framework Angular
+Exercice d'apprentissage du Framework Angular
