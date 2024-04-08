@@ -1,19 +1,19 @@
-import { DatePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { TopNavComponent } from '../../../components/top-nav/top-nav.component';
 import { BottomInfoComponent } from '../../../components/bottom-info/bottom-info.component';
+import { CardYustiblogComponent } from '../../../components/card-yustiblog/card-yustiblog.component';
 
 @Component({
   selector: 'app-yustiblog-page',
   standalone: true,
   imports: [
-    DatePipe,
     TopNavComponent,
-    BottomInfoComponent
+    BottomInfoComponent,
+    CardYustiblogComponent
   ],
   templateUrl: './yustiblog-page.component.html',
   styleUrl: './yustiblog-page.component.css'
 })
 export class YustiblogPageComponent {
-  public dateFr: number = Date.now()
+  
 }
